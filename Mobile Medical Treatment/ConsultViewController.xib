@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C2043" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConsultViewController">
+            <connections>
+                <outlet property="image1" destination="ebT-Nx-c3j" id="5nv-RN-DMl"/>
+                <outlet property="image10" destination="Iu1-do-LHU" id="148-vp-Nvw"/>
+                <outlet property="image11" destination="U7y-cq-WkP" id="q7q-Xs-Lre"/>
+                <outlet property="image12" destination="bVc-Py-Kns" id="Kxl-6G-LVd"/>
+                <outlet property="image13" destination="q0B-Y5-WOZ" id="6Rz-bX-wMz"/>
+                <outlet property="image14" destination="0dK-Js-LR5" id="3ah-gb-OdA"/>
+                <outlet property="image15" destination="JQf-C6-CIm" id="eps-6Y-f1B"/>
+                <outlet property="image16" destination="EI2-OF-1tF" id="q1F-Nh-1WM"/>
+                <outlet property="image17" destination="xUt-cg-bgz" id="J65-gz-kIF"/>
+                <outlet property="image18" destination="Rut-mB-02G" id="NkG-GQ-YFy"/>
+                <outlet property="image2" destination="k61-zd-ihC" id="Rhs-NZ-pBt"/>
+                <outlet property="image3" destination="c6D-zO-NfG" id="0d0-AO-q0H"/>
+                <outlet property="image4" destination="2a5-Xc-YMv" id="pDi-Vm-c8g"/>
+                <outlet property="image5" destination="r6k-v7-4oT" id="FnV-dE-kik"/>
+                <outlet property="image6" destination="ef1-Cv-JOQ" id="FzZ-Wq-lGv"/>
+                <outlet property="image7" destination="NCN-b4-sNY" id="MPM-rG-NxK"/>
+                <outlet property="image8" destination="jTE-AD-UB1" id="vrg-fJ-Vts"/>
+                <outlet property="image9" destination="kMV-0S-BF5" id="hAX-Km-XQm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_fuke_icon_btn.png" id="ebT-Nx-c3j">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_chanke_icon_btn.png" id="k61-zd-ihC">
+                    <rect key="frame" x="80" y="0.0" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_erke_icon_btn.png" id="c6D-zO-NfG">
+                    <rect key="frame" x="160" y="0.0" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_nanke_icon_btn.png" id="2a5-Xc-YMv">
+                    <rect key="frame" x="240" y="0.0" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_pifuke_icon_btn.png" id="r6k-v7-4oT">
+                    <rect key="frame" x="0.0" y="90" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_neike_icon_btn.png" id="ef1-Cv-JOQ">
+                    <rect key="frame" x="80" y="90" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_waike_icon_btn.png" id="NCN-b4-sNY">
+                    <rect key="frame" x="160" y="90" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_gushangke_icon_btn.png" id="jTE-AD-UB1">
+                    <rect key="frame" x="241" y="91" width="80" height="89"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_yanke_icon_btn.png" id="kMV-0S-BF5">
+                    <rect key="frame" x="0.0" y="180" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_erbike_icon_btn.png" id="Iu1-do-LHU">
+                    <rect key="frame" x="80" y="180" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_kouke_icon_btn.png" id="U7y-cq-WkP">
+                    <rect key="frame" x="160" y="180" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_zhengxingke_icon_btn.png" id="bVc-Py-Kns">
+                    <rect key="frame" x="240" y="180" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_zhongliuke_icon_btn.png" id="q0B-Y5-WOZ">
+                    <rect key="frame" x="0.0" y="270" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_jingske_icon_btn.png" id="0dK-Js-LR5">
+                    <rect key="frame" x="80" y="270" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_zhongyike_icon_btn.png" id="JQf-C6-CIm">
+                    <rect key="frame" x="160" y="270" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_yingyangke_icon_btn.png" id="EI2-OF-1tF">
+                    <rect key="frame" x="240" y="270" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_jieduke_icon_btn.png" id="xUt-cg-bgz">
+                    <rect key="frame" x="0.0" y="361" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zixun_jiyinke_icon_btn.png" id="Rut-mB-02G">
+                    <rect key="frame" x="80" y="361" width="80" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="TWl-dO-rZG">
+                    <rect key="frame" x="0.0" y="90" width="320" height="1"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="fdL-zK-Aky">
+                    <rect key="frame" x="0.0" y="180" width="320" height="1"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="W4A-z2-bWT">
+                    <rect key="frame" x="0.0" y="270" width="320" height="1"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="9nt-8s-vmT">
+                    <rect key="frame" x="0.0" y="360" width="320" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="n3C-nK-6wk">
+                    <rect key="frame" x="0.0" y="451" width="160" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="QJe-1T-7Bh">
+                    <rect key="frame" x="80" y="0.0" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="7kj-C7-yQJ">
+                    <rect key="frame" x="160" y="0.0" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="v0N-8d-Nri">
+                    <rect key="frame" x="240" y="0.0" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="WMI-dX-rXP">
+                    <rect key="frame" x="80" y="90" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="hnp-8C-VJ4">
+                    <rect key="frame" x="160" y="90" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="nCH-7f-cPE">
+                    <rect key="frame" x="80" y="180" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="BRK-Uj-ElI">
+                    <rect key="frame" x="160" y="180" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="mid-h9-Fjc">
+                    <rect key="frame" x="240" y="180" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="wXP-5j-T8E">
+                    <rect key="frame" x="80" y="270" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5sw-Nz-lVp">
+                    <rect key="frame" x="160" y="270" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="3hF-1F-tx5">
+                    <rect key="frame" x="240" y="270" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="STb-LK-1yN">
+                    <rect key="frame" x="80" y="361" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="tfe-ee-cxi">
+                    <rect key="frame" x="160" y="361" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Ywb-d2-XuI">
+                    <rect key="frame" x="240" y="90" width="1" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <point key="canvasLocation" x="281" y="235"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="zixun_chanke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_erbike_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_erke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_fuke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_gushangke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_jieduke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_jingske_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_jiyinke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_kouke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_nanke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_neike_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_pifuke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_waike_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_yanke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_yingyangke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_zhengxingke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_zhongliuke_icon_btn.png" width="150" height="170"/>
+        <image name="zixun_zhongyike_icon_btn.png" width="150" height="170"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
