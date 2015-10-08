@@ -23,7 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    //self.title = @"移动医疗";
+    
+    self.navigationItem.title = @"一点就医";
     UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithImage:[FirstPageViewController scale:[UIImage imageNamed:@"message_white_icon"] toSize:CGSizeMake(23, 23)] style:UIBarButtonItemStylePlain target:self action:@selector(changeToMessageTable:)];
     self.navigationItem.rightBarButtonItem = rightButton;
     
@@ -47,10 +48,10 @@
     
     self.functionType = [NSMutableArray arrayWithObjects:type1, type2, type3, nil];
     
-    [_scrollView setContentSize:CGSizeMake(4*_scrollView.frame.size.width, _scrollView.frame.size.height )];
+    [_scrollView setContentSize:CGSizeMake(6*_scrollView.frame.size.width, _scrollView.frame.size.height )];
     [self showGuide];
     
-    _pageControl.numberOfPages = 4;
+    _pageControl.numberOfPages = 6;
     _pageControl.currentPage = 0;
     [_pageControl addTarget:self action:@selector(pageTurn:) forControlEvents:UIControlEventValueChanged];
     _pageControl.currentPageIndicatorTintColor = [UIColor redColor];
@@ -77,11 +78,11 @@
     UITapGestureRecognizer *singleTap6 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(view6Action:)];
     [_view6 addGestureRecognizer:singleTap6];
     UITapGestureRecognizer *singleTap7 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(view7Action:)];
-    [_view4 addGestureRecognizer:singleTap7];
+    [_view7 addGestureRecognizer:singleTap7];
     UITapGestureRecognizer *singleTap8 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(view8Action:)];
-    [_view5 addGestureRecognizer:singleTap8];
+    [_view8 addGestureRecognizer:singleTap8];
     UITapGestureRecognizer *singleTap9 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(view9Action:)];
-    [_view6 addGestureRecognizer:singleTap9];
+    [_view9 addGestureRecognizer:singleTap9];
     
     [_mainScrollView setContentSize:CGSizeMake(_mainScrollView.frame.size.width, self.view.frame.size.height )];
 }
@@ -93,7 +94,7 @@
 }
 -(void) showGuide
 {
-    NSArray *arry = [NSArray arrayWithObjects:[FirstPageViewController scale:[UIImage imageNamed:@"fire1.jpg"] toSize:_scrollView.frame.size],[FirstPageViewController scale:[UIImage imageNamed:@"fire2.jpg"] toSize:_scrollView.frame.size],[FirstPageViewController scale:[UIImage imageNamed:@"fire3.jpg"] toSize:_scrollView.frame.size],[FirstPageViewController scale:[UIImage imageNamed:@"fire4.png"] toSize:_scrollView.frame.size], nil];
+    NSArray *arry = [NSArray arrayWithObjects:[FirstPageViewController scale:[UIImage imageNamed:@"fire1.jpg"] toSize:_scrollView.frame.size],[FirstPageViewController scale:[UIImage imageNamed:@"fire2.jpg"] toSize:_scrollView.frame.size],[FirstPageViewController scale:[UIImage imageNamed:@"fire3.jpg"] toSize:_scrollView.frame.size],[FirstPageViewController scale:[UIImage imageNamed:@"fire4.png"] toSize:_scrollView.frame.size],[FirstPageViewController scale:[UIImage imageNamed:@"fire1.jpg"] toSize:_scrollView.frame.size],[FirstPageViewController scale:[UIImage imageNamed:@"fire2.jpg"] toSize:_scrollView.frame.size], nil];
     
     //为每一页添加图片
     for (int i=0; i<[arry count]; i++) {
@@ -216,7 +217,7 @@
 
 - (IBAction)view4Action:(id)sender {
     //电子病历
-    MedicalRecordViewController *medicalRecordViewController = [[MedicalRecordViewController alloc]init];
+    MedicalRecordViewController *medicalRecordViewController = [[MedicalRecordViewController alloc]initWithNibName:@"MedicalRecordViewController" bundle:nil];
     [self.navigationController pushViewController:medicalRecordViewController animated:YES];
 }
 

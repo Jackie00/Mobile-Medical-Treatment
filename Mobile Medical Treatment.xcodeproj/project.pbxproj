@@ -966,15 +966,15 @@
 			name = image;
 			sourceTree = "<group>";
 		};
-		6F4E309A1BA3BCC200B7DF66 /* BMK */ = {
+		6F4E309A1BA3BCC200B7DF66 /* Map */ = {
 			isa = PBXGroup;
 			children = (
 				6F4E30D71BA3BD1600B7DF66 /* mapapi.bundle */,
 				6F4E309B1BA3BCE700B7DF66 /* inc */,
 			);
-			name = BMK;
+			name = Map;
 			path = "Mobile Medical TreatmentTests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		6F4E309B1BA3BCE700B7DF66 /* inc */ = {
 			isa = PBXGroup;
@@ -1045,18 +1045,8 @@
 		6FBEEBE01B9BDFF400D5D258 = {
 			isa = PBXGroup;
 			children = (
-				6F7408F51BB525C400E96235 /* libidn.a */,
-				6FBF34C41BB295CC00A5EB2E /* libresolv.dylib */,
-				6FBF34C21BB295C200A5EB2E /* Security.framework */,
-				6FBF34C01BB295B100A5EB2E /* CFNetwork.framework */,
-				6FBF34BE1BB295A500A5EB2E /* libxml2.dylib */,
-				6F4E30DB1BA3BEB600B7DF66 /* libbaidumapapi.a */,
-				6F4E30D91BA3BD4B00B7DF66 /* libbaidumapapi.a */,
-				6FC693471BA2BDF80023F83D /* QuartzCore.framework */,
 				6FBEEBEB1B9BDFF400D5D258 /* Mobile Medical Treatment */,
 				6FBEEC051B9BDFF500D5D258 /* Mobile Medical TreatmentTests */,
-				6F4E309A1BA3BCC200B7DF66 /* BMK */,
-				6FC6933D1BA2BC520023F83D /* Framework */,
 				6FBEEBEA1B9BDFF400D5D258 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1075,106 +1065,14 @@
 			children = (
 				6FBEEBF01B9BDFF400D5D258 /* AppDelegate.h */,
 				6FBEEBF11B9BDFF400D5D258 /* AppDelegate.mm */,
-				6FBEEC121B9BE03F00D5D258 /* LoginViewController.h */,
-				6FBEEC131B9BE03F00D5D258 /* LoginViewController.m */,
-				6FBEEC141B9BE03F00D5D258 /* LoginViewController.xib */,
-				6FBEEC171B9C11F800D5D258 /* RegistViewController.h */,
-				6FBEEC181B9C11F800D5D258 /* RegistViewController.m */,
-				6FBEEC191B9C11F800D5D258 /* RegistViewController.xib */,
-				6FC292471B9C73BC0070C902 /* FirstPageViewController.h */,
-				6FC292481B9C73BC0070C902 /* FirstPageViewController.m */,
-				6FC292491B9C73BC0070C902 /* FirstPageViewController.xib */,
-				6F41F59D1B9E746500BA6D31 /* FunctionType.h */,
-				6F41F59E1B9E746500BA6D31 /* FunctionType.m */,
-				6FBEEC291B9C30D300D5D258 /* HospitalRegisterViewController.h */,
-				6FBEEC2A1B9C30D300D5D258 /* HospitalRegisterViewController.m */,
-				6FBEEC2B1B9C30D300D5D258 /* HospitalRegisterViewController.xib */,
-				6FBEEC2E1B9C310F00D5D258 /* ConsultViewController.h */,
-				6FBEEC2F1B9C310F00D5D258 /* ConsultViewController.m */,
-				6FBEEC301B9C310F00D5D258 /* ConsultViewController.xib */,
-				6FBEEC331B9C313400D5D258 /* FriendsViewController.h */,
-				6FBEEC341B9C313400D5D258 /* FriendsViewController.m */,
-				6FBEEC351B9C313400D5D258 /* FriendsViewController.xib */,
-				6FBEEC381B9C316600D5D258 /* AboutMyViewController.h */,
-				6FBEEC391B9C316600D5D258 /* AboutMyViewController.m */,
-				6FBEEC3A1B9C316600D5D258 /* AboutMyViewController.xib */,
-				6FC1E9AE1BA02CB30067864F /* AdvertisementViewController.h */,
-				6FC1E9AF1BA02CB30067864F /* AdvertisementViewController.m */,
-				6FC1E9B01BA02CB30067864F /* AdvertisementViewController.xib */,
-				6F7006341BA1817A00663620 /* ChangePasswordViewController.h */,
-				6F7006351BA1817A00663620 /* ChangePasswordViewController.m */,
-				6F7006361BA1817A00663620 /* ChangePasswordViewController.xib */,
-				6F7006391BA1B20400663620 /* NewRemindViewController.h */,
-				6F70063A1BA1B20400663620 /* NewRemindViewController.m */,
-				6F70063B1BA1B20400663620 /* NewRemindViewController.xib */,
-				6FC4EEA11BA277DD0033CA74 /* NearbyHospitalViewController.h */,
-				6FC4EEA21BA277DD0033CA74 /* NearbyHospitalViewController.m */,
-				6FC4EEA31BA277DD0033CA74 /* NearbyHospitalViewController.xib */,
-				6F6B472A1BA66AE4008B7A9E /* MyAppointmentTableViewController.h */,
-				6F6B472B1BA66AE4008B7A9E /* MyAppointmentTableViewController.m */,
-				6F6B472C1BA66AE4008B7A9E /* MyAppointmentTableViewController.xib */,
-				6F6B47221BA65A50008B7A9E /* MyAppointmentTableViewCell.h */,
-				6F6B47231BA65A50008B7A9E /* MyAppointmentTableViewCell.m */,
-				6F6B47241BA65A50008B7A9E /* MyAppointmentTableViewCell.xib */,
-				6F6B47271BA663A2008B7A9E /* Appointment.h */,
-				6F6B47281BA663A2008B7A9E /* Appointment.m */,
-				6FCAF5911BA6AA1F00E0ED0C /* PhysicalExaminationViewController.h */,
-				6FCAF5921BA6AA1F00E0ED0C /* PhysicalExaminationViewController.m */,
-				6FCAF5931BA6AA1F00E0ED0C /* PhysicalExaminationViewController.xib */,
-				6FCAF5961BA6AB2300E0ED0C /* PhysicalExaminationCell.h */,
-				6FCAF5971BA6AB2300E0ED0C /* PhysicalExaminationCell.m */,
-				6FCAF5981BA6AB2300E0ED0C /* PhysicalExaminationCell.xib */,
-				6FCAF59B1BA6B11600E0ED0C /* ExaminationReport.h */,
-				6FCAF59C1BA6B11600E0ED0C /* ExaminationReport.m */,
-				6FCAF5A21BA6EDBD00E0ED0C /* HospitalChoiceViewController.h */,
-				6FCAF5A31BA6EDBD00E0ED0C /* HospitalChoiceViewController.m */,
-				6FCAF5A41BA6EDBD00E0ED0C /* HospitalChoiceViewController.xib */,
-				6FCAF5A71BA6EE2200E0ED0C /* HospitalCell.h */,
-				6FCAF5A81BA6EE2200E0ED0C /* HospitalCell.m */,
-				6FCAF5A91BA6EE2200E0ED0C /* HospitalCell.xib */,
-				6FCAF5AE1BA6F10200E0ED0C /* Hospital.h */,
-				6FCAF5AF1BA6F10200E0ED0C /* Hospital.m */,
-				6FC02F7E1BA83B9400B15A91 /* OfficeChoiceViewController.h */,
-				6FC02F7F1BA83B9400B15A91 /* OfficeChoiceViewController.m */,
-				6FC02F801BA83B9400B15A91 /* OfficeChoiceViewController.xib */,
-				6F91B5C91BA96466003F194D /* RegistDoctorsViewController.h */,
-				6F91B5CA1BA96466003F194D /* RegistDoctorsViewController.m */,
-				6F91B5CB1BA96466003F194D /* RegistDoctorsViewController.xib */,
-				6F91B5CE1BA96750003F194D /* RegistDoctorCell.h */,
-				6F91B5CF1BA96750003F194D /* RegistDoctorCell.m */,
-				6F91B5D01BA96750003F194D /* RegistDoctorCell.xib */,
-				6F91B5D71BA96B85003F194D /* RegistDoctor.h */,
-				6F91B5D81BA96B85003F194D /* RegistDoctor.m */,
-				6F457F741BAA56AB00E4B046 /* ConsultDoctorViewController.h */,
-				6F457F751BAA56AB00E4B046 /* ConsultDoctorViewController.m */,
-				6F457F761BAA56AB00E4B046 /* ConsultDoctorViewController.xib */,
-				6F457F791BAA573800E4B046 /* ConsultDoctorCell.h */,
-				6F457F7A1BAA573800E4B046 /* ConsultDoctorCell.m */,
-				6F457F7B1BAA573800E4B046 /* ConsultDoctorCell.xib */,
-				6F457F7E1BAA5D4800E4B046 /* ConsultDoctor.h */,
-				6F457F7F1BAA5D4800E4B046 /* ConsultDoctor.m */,
-				6FC64FC81BAFE4C90025A904 /* ConsultDoctorDetailViewController.h */,
-				6FC64FC91BAFE4C90025A904 /* ConsultDoctorDetailViewController.m */,
-				6FC64FCA1BAFE4C90025A904 /* ConsultDoctorDetailViewController.xib */,
-				6FC5F4EC1BAAA66500349084 /* MedicalRecordViewController.h */,
-				6FC5F4ED1BAAA66500349084 /* MedicalRecordViewController.m */,
-				6FC5F4EE1BAAA66500349084 /* MedicalRecordViewController.xib */,
-				6F6949241BABEEBD005A8763 /* MedicalRecordCell.h */,
-				6F6949251BABEEBD005A8763 /* MedicalRecordCell.m */,
-				6F6949261BABEEBD005A8763 /* MedicalRecordCell.xib */,
-				6F6949291BABF163005A8763 /* MedicalRecord.h */,
-				6F69492A1BABF163005A8763 /* MedicalRecord.m */,
-				6F69492C1BAC0540005A8763 /* PersonalRecordViewController.h */,
-				6F69492D1BAC0540005A8763 /* PersonalRecordViewController.m */,
-				6F69492E1BAC0540005A8763 /* PersonalRecordViewController.xib */,
-				6F6949311BAC0680005A8763 /* PersonalRecordCell.h */,
-				6F6949321BAC0680005A8763 /* PersonalRecordCell.m */,
-				6F6949331BAC0680005A8763 /* PersonalRecordCell.xib */,
+				6FC1A0651BC6691300734C62 /* View */,
+				6F4E309A1BA3BCC200B7DF66 /* Map */,
+				6FC1A0641BC668BD00734C62 /* Utiles */,
 				6FBEEBF61B9BDFF400D5D258 /* Main.storyboard */,
 				6FBEEBF91B9BDFF400D5D258 /* Images.xcassets */,
 				6FBEEBFB1B9BDFF400D5D258 /* LaunchScreen.xib */,
-				6FF7E2E31BB246A900D528AC /* XMPPFramework */,
 				6FBEEBEC1B9BDFF400D5D258 /* Supporting Files */,
+				6FC6933D1BA2BC520023F83D /* Framework */,
 			);
 			path = "Mobile Medical Treatment";
 			sourceTree = "<group>";
@@ -2069,13 +1967,212 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		6FC1A05A1BC660C800734C62 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEEC121B9BE03F00D5D258 /* LoginViewController.h */,
+				6FBEEC131B9BE03F00D5D258 /* LoginViewController.m */,
+				6FBEEC141B9BE03F00D5D258 /* LoginViewController.xib */,
+				6FBEEC171B9C11F800D5D258 /* RegistViewController.h */,
+				6FBEEC181B9C11F800D5D258 /* RegistViewController.m */,
+				6FBEEC191B9C11F800D5D258 /* RegistViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		6FC1A05B1BC6611600734C62 /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				6FC292471B9C73BC0070C902 /* FirstPageViewController.h */,
+				6FC292481B9C73BC0070C902 /* FirstPageViewController.m */,
+				6FC292491B9C73BC0070C902 /* FirstPageViewController.xib */,
+				6FC1E9AE1BA02CB30067864F /* AdvertisementViewController.h */,
+				6FC1E9AF1BA02CB30067864F /* AdvertisementViewController.m */,
+				6FC1E9B01BA02CB30067864F /* AdvertisementViewController.xib */,
+				6FC1A05C1BC6621700734C62 /* Appointment */,
+				6FC1A05D1BC6627700734C62 /* ExaminationReport */,
+				6FC1A0611BC6660000734C62 /* MedicalRecord */,
+				6FC1A05E1BC6630400734C62 /* NearbyHospital */,
+			);
+			name = FirstPage;
+			sourceTree = "<group>";
+		};
+		6FC1A05C1BC6621700734C62 /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				6F6B472A1BA66AE4008B7A9E /* MyAppointmentTableViewController.h */,
+				6F6B472B1BA66AE4008B7A9E /* MyAppointmentTableViewController.m */,
+				6F6B472C1BA66AE4008B7A9E /* MyAppointmentTableViewController.xib */,
+				6F6B47221BA65A50008B7A9E /* MyAppointmentTableViewCell.h */,
+				6F6B47231BA65A50008B7A9E /* MyAppointmentTableViewCell.m */,
+				6F6B47241BA65A50008B7A9E /* MyAppointmentTableViewCell.xib */,
+			);
+			name = Appointment;
+			sourceTree = "<group>";
+		};
+		6FC1A05D1BC6627700734C62 /* ExaminationReport */ = {
+			isa = PBXGroup;
+			children = (
+				6FCAF5911BA6AA1F00E0ED0C /* PhysicalExaminationViewController.h */,
+				6FCAF5921BA6AA1F00E0ED0C /* PhysicalExaminationViewController.m */,
+				6FCAF5931BA6AA1F00E0ED0C /* PhysicalExaminationViewController.xib */,
+				6FCAF5961BA6AB2300E0ED0C /* PhysicalExaminationCell.h */,
+				6FCAF5971BA6AB2300E0ED0C /* PhysicalExaminationCell.m */,
+				6FCAF5981BA6AB2300E0ED0C /* PhysicalExaminationCell.xib */,
+			);
+			name = ExaminationReport;
+			sourceTree = "<group>";
+		};
+		6FC1A05E1BC6630400734C62 /* NearbyHospital */ = {
+			isa = PBXGroup;
+			children = (
+				6FC4EEA11BA277DD0033CA74 /* NearbyHospitalViewController.h */,
+				6FC4EEA21BA277DD0033CA74 /* NearbyHospitalViewController.m */,
+				6FC4EEA31BA277DD0033CA74 /* NearbyHospitalViewController.xib */,
+			);
+			name = NearbyHospital;
+			sourceTree = "<group>";
+		};
+		6FC1A05F1BC6637300734C62 /* HospitalRegister */ = {
+			isa = PBXGroup;
+			children = (
+				6FCAF5A21BA6EDBD00E0ED0C /* HospitalChoiceViewController.h */,
+				6FCAF5A31BA6EDBD00E0ED0C /* HospitalChoiceViewController.m */,
+				6FCAF5A41BA6EDBD00E0ED0C /* HospitalChoiceViewController.xib */,
+				6FCAF5A71BA6EE2200E0ED0C /* HospitalCell.h */,
+				6FCAF5A81BA6EE2200E0ED0C /* HospitalCell.m */,
+				6FCAF5A91BA6EE2200E0ED0C /* HospitalCell.xib */,
+				6FBEEC291B9C30D300D5D258 /* HospitalRegisterViewController.h */,
+				6FBEEC2A1B9C30D300D5D258 /* HospitalRegisterViewController.m */,
+				6FBEEC2B1B9C30D300D5D258 /* HospitalRegisterViewController.xib */,
+				6FC02F7E1BA83B9400B15A91 /* OfficeChoiceViewController.h */,
+				6FC02F7F1BA83B9400B15A91 /* OfficeChoiceViewController.m */,
+				6FC02F801BA83B9400B15A91 /* OfficeChoiceViewController.xib */,
+				6F91B5C91BA96466003F194D /* RegistDoctorsViewController.h */,
+				6F91B5CA1BA96466003F194D /* RegistDoctorsViewController.m */,
+				6F91B5CB1BA96466003F194D /* RegistDoctorsViewController.xib */,
+				6F91B5CE1BA96750003F194D /* RegistDoctorCell.h */,
+				6F91B5CF1BA96750003F194D /* RegistDoctorCell.m */,
+				6F91B5D01BA96750003F194D /* RegistDoctorCell.xib */,
+			);
+			name = HospitalRegister;
+			sourceTree = "<group>";
+		};
+		6FC1A0601BC6648200734C62 /* Consult */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEEC2E1B9C310F00D5D258 /* ConsultViewController.h */,
+				6FBEEC2F1B9C310F00D5D258 /* ConsultViewController.m */,
+				6FBEEC301B9C310F00D5D258 /* ConsultViewController.xib */,
+				6F457F741BAA56AB00E4B046 /* ConsultDoctorViewController.h */,
+				6F457F751BAA56AB00E4B046 /* ConsultDoctorViewController.m */,
+				6F457F761BAA56AB00E4B046 /* ConsultDoctorViewController.xib */,
+				6F457F791BAA573800E4B046 /* ConsultDoctorCell.h */,
+				6F457F7A1BAA573800E4B046 /* ConsultDoctorCell.m */,
+				6F457F7B1BAA573800E4B046 /* ConsultDoctorCell.xib */,
+				6FC64FC81BAFE4C90025A904 /* ConsultDoctorDetailViewController.h */,
+				6FC64FC91BAFE4C90025A904 /* ConsultDoctorDetailViewController.m */,
+				6FC64FCA1BAFE4C90025A904 /* ConsultDoctorDetailViewController.xib */,
+			);
+			name = Consult;
+			sourceTree = "<group>";
+		};
+		6FC1A0611BC6660000734C62 /* MedicalRecord */ = {
+			isa = PBXGroup;
+			children = (
+				6FC5F4EC1BAAA66500349084 /* MedicalRecordViewController.h */,
+				6FC5F4ED1BAAA66500349084 /* MedicalRecordViewController.m */,
+				6FC5F4EE1BAAA66500349084 /* MedicalRecordViewController.xib */,
+				6F6949241BABEEBD005A8763 /* MedicalRecordCell.h */,
+				6F6949251BABEEBD005A8763 /* MedicalRecordCell.m */,
+				6F6949261BABEEBD005A8763 /* MedicalRecordCell.xib */,
+				6F69492C1BAC0540005A8763 /* PersonalRecordViewController.h */,
+				6F69492D1BAC0540005A8763 /* PersonalRecordViewController.m */,
+				6F69492E1BAC0540005A8763 /* PersonalRecordViewController.xib */,
+				6F6949311BAC0680005A8763 /* PersonalRecordCell.h */,
+				6F6949321BAC0680005A8763 /* PersonalRecordCell.m */,
+				6F6949331BAC0680005A8763 /* PersonalRecordCell.xib */,
+			);
+			name = MedicalRecord;
+			sourceTree = "<group>";
+		};
+		6FC1A0621BC667DF00734C62 /* AboutMy */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEEC381B9C316600D5D258 /* AboutMyViewController.h */,
+				6FBEEC391B9C316600D5D258 /* AboutMyViewController.m */,
+				6FBEEC3A1B9C316600D5D258 /* AboutMyViewController.xib */,
+				6F7006341BA1817A00663620 /* ChangePasswordViewController.h */,
+				6F7006351BA1817A00663620 /* ChangePasswordViewController.m */,
+				6F7006361BA1817A00663620 /* ChangePasswordViewController.xib */,
+				6F7006391BA1B20400663620 /* NewRemindViewController.h */,
+				6F70063A1BA1B20400663620 /* NewRemindViewController.m */,
+				6F70063B1BA1B20400663620 /* NewRemindViewController.xib */,
+			);
+			name = AboutMy;
+			sourceTree = "<group>";
+		};
+		6FC1A0631BC6683600734C62 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				6FBEEC331B9C313400D5D258 /* FriendsViewController.h */,
+				6FBEEC341B9C313400D5D258 /* FriendsViewController.m */,
+				6FBEEC351B9C313400D5D258 /* FriendsViewController.xib */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		6FC1A0641BC668BD00734C62 /* Utiles */ = {
+			isa = PBXGroup;
+			children = (
+				6F41F59D1B9E746500BA6D31 /* FunctionType.h */,
+				6F41F59E1B9E746500BA6D31 /* FunctionType.m */,
+				6F6B47271BA663A2008B7A9E /* Appointment.h */,
+				6F6B47281BA663A2008B7A9E /* Appointment.m */,
+				6FCAF59B1BA6B11600E0ED0C /* ExaminationReport.h */,
+				6FCAF59C1BA6B11600E0ED0C /* ExaminationReport.m */,
+				6FCAF5AE1BA6F10200E0ED0C /* Hospital.h */,
+				6FCAF5AF1BA6F10200E0ED0C /* Hospital.m */,
+				6F91B5D71BA96B85003F194D /* RegistDoctor.h */,
+				6F91B5D81BA96B85003F194D /* RegistDoctor.m */,
+				6F457F7E1BAA5D4800E4B046 /* ConsultDoctor.h */,
+				6F457F7F1BAA5D4800E4B046 /* ConsultDoctor.m */,
+				6F6949291BABF163005A8763 /* MedicalRecord.h */,
+				6F69492A1BABF163005A8763 /* MedicalRecord.m */,
+			);
+			name = Utiles;
+			sourceTree = "<group>";
+		};
+		6FC1A0651BC6691300734C62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6FC1A05A1BC660C800734C62 /* Login */,
+				6FC1A05B1BC6611600734C62 /* FirstPage */,
+				6FC1A05F1BC6637300734C62 /* HospitalRegister */,
+				6FC1A0601BC6648200734C62 /* Consult */,
+				6FC1A0621BC667DF00734C62 /* AboutMy */,
+				6FC1A0631BC6683600734C62 /* Friends */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		6FC6933D1BA2BC520023F83D /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				6FF7E2E31BB246A900D528AC /* XMPPFramework */,
 				6FC4EE9F1BA267730033CA74 /* CoreLocation.framework */,
 				6FC4EE9D1BA267650033CA74 /* MapKit.framework */,
+				6F7408F51BB525C400E96235 /* libidn.a */,
+				6FBF34C41BB295CC00A5EB2E /* libresolv.dylib */,
+				6FBF34C21BB295C200A5EB2E /* Security.framework */,
+				6FBF34C01BB295B100A5EB2E /* CFNetwork.framework */,
+				6FBF34BE1BB295A500A5EB2E /* libxml2.dylib */,
+				6F4E30DB1BA3BEB600B7DF66 /* libbaidumapapi.a */,
+				6F4E30D91BA3BD4B00B7DF66 /* libbaidumapapi.a */,
+				6FC693471BA2BDF80023F83D /* QuartzCore.framework */,
 			);
 			name = Framework;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		6FF7E2E31BB246A900D528AC /* XMPPFramework */ = {
@@ -2093,6 +2190,7 @@
 				6FBF32DE1BB2955E00A5EB2E /* libidn */,
 			);
 			name = XMPPFramework;
+			path = "Mobile Medical Treatment";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
