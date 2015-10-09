@@ -10,14 +10,14 @@
 	<string>Mobile Medical Treatment</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>5F90791C5C9C7E1BD6BF5CEF9DB636E8846D6E3F</key>
+		<key>871DA58276CFE4FC12245C3C1387DB70FFF55657</key>
 		<string>https://github.com/Jackie00/Mobile-Medical-Treatment.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Mobile Medical Treatment.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>5F90791C5C9C7E1BD6BF5CEF9DB636E8846D6E3F</key>
+		<key>871DA58276CFE4FC12245C3C1387DB70FFF55657</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5F90791C5C9C7E1BD6BF5CEF9DB636E8846D6E3F</string>
+	<string>871DA58276CFE4FC12245C3C1387DB70FFF55657</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5F90791C5C9C7E1BD6BF5CEF9DB636E8846D6E3F</string>
+			<string>871DA58276CFE4FC12245C3C1387DB70FFF55657</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Mobile%20Medical%20Treatment%202</string>
 		</dict>

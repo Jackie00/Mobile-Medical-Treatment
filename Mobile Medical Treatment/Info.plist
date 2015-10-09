@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>zh_CN</string>
 	<key>CFBundleDisplayName</key>
-	<string>移动医疗</string>
+	<string>一点就医</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIconFiles</key>
@@ -13,11 +13,11 @@
 		<string>Icon.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.cps.mobile</string>
+	<string>com.CPSec.MobileMedicalTreatment</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>一点就医</string>
+	<string>MobileMedicalTreatment</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -31,7 +31,7 @@
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>YES</string>
 	<key>NSLocationUsageDescription</key>
-	<string>移动医疗想访问您的位置</string>
+	<string>一点就医想访问您的位置</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>YES</string>
 	<key>UILaunchStoryboardName</key>

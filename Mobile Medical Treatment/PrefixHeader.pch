@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  Mobile Medical Treatment
+//
+//  Created by appel on 15/10/8.
+//  Copyright (c) 2015年 appel. All rights reserved.
+//
+
+#ifndef Mobile_Medical_Treatment_PrefixHeader_pch
+#define Mobile_Medical_Treatment_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AFNetworking.h"
+
+#endif

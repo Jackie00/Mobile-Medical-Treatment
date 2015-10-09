@@ -38,12 +38,12 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated {
-    
+    [super viewWillAppear:YES];
     self.tabBarController.tabBar.hidden = YES;
 }
 
 -(void)viewWillDisappear:(BOOL)animated {
-    
+    [super viewWillDisappear:YES];
     self.tabBarController.tabBar.hidden = NO;
 }
 
@@ -64,8 +64,8 @@
     }
     else
     {
-        NSMutableArray *array = [[NSMutableArray alloc]init];
-        array = [self.officeDetail objectAtIndex:detailIndex];
+        //NSMutableArray *array = [[NSMutableArray alloc]init];
+        NSMutableArray *array = [self.officeDetail objectAtIndex:detailIndex];
         return [array count];
     }
 }
@@ -83,8 +83,8 @@
     }
     else
     {
-        NSMutableArray *array = [[NSMutableArray alloc]init];
-        array = [self.officeDetail objectAtIndex:detailIndex];
+        //NSMutableArray *array = [[NSMutableArray alloc]init];
+        NSMutableArray *array = [self.officeDetail objectAtIndex:detailIndex];
         cell.textLabel.text = [array objectAtIndex:indexPath.row];
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
